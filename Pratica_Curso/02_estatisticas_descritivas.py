@@ -9,6 +9,14 @@ df.head()
 
 # %%
 
+variancia = df["qtdPontos"].var()
+desvio_padrao = df["qtdPontos"].std()
+
+print("Variância: ", variancia)
+print("Desvio-Padrão: ", desvio_padrao)
+
+# %%
+
 df["qtdPontos"].describe()
 
 # %%
